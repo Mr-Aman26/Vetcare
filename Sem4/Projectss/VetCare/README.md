@@ -1,15 +1,21 @@
 # Online Doctor Appointment
 
-Patients can select a desired doctor appointment date through the online platform. This project is developed using the MERN stack technology, and I have implemented various functionalities to make it a professional website. Currently, I do not have much time, but in the future, I plan to add additional functionality in the admin panel. For now, the current state is sufficient.
+Introducing Vetcare, the ultimate healthcare app for animal lovers! Vetcare is a comprehensive platform that connects pet owners with veterinary professionals from all around the country. This project is developed using the MERN stack technology, and various functionalities have been implemented to make it a professional website.In addition, Vetcare features an admin panel that allows for easy management of doctors and appointments, making it simple to keep track of your pet's healthcare needs. With its sleek and user-friendly interface, Vetcare is the one-stop solution for all your pet care needs.
+
+
 
 ##Setting up this MERN project on your local machine typically involves the following steps:
 ###The front-end and Express code are in the same directory, with the Express API located at ./api
 1. Clone or download the project source code to your local machine.
-2. Install dependencies. This can be done using a package manager such as npm (Node Package Manager) or yarn.
-3. Run the development server. This can be done using a command line tool such as the terminal, where you can run the command npm start or yarn start.
+2. Install dependencies. This can be done using a package manager such as npm (Node Package Manager) or yarn. -- npm install 
+3. Run the development server. This can be done using a command line tool such as the terminal, where you can run the command npm start or yarn start. --npm start
 4. Access the project in your web browser by navigating to `http://localhost:3000` or another specified URL.
 
 ##To set up an Express API in the "./api" directory of a project, you can follow these steps:
+1. Cd api
+2. npm install 
+3. nodemon index.js
+
 1. Install the required dependencies. You can do this by running npm install or yarn install in the terminal and including the express module as a dependency.
 2. Set up the server and configure middleware in a file such as index.js within the "./api" directory. You can do this by importing the express module and creating an instance of an express application, setting up routes for handling HTTP requests, and configuring middleware for handling requests and responses.
 3. Set up environment variables for the project. This can be done by creating a file such as .env in the root directory and specifying key-value pairs for any environment-specific variables, such as a port number or database credentials.
@@ -33,10 +39,6 @@ Note: These are general instructions for setting up an Express API, and the spec
 - CRUD operations and additional features.
 - Responsive design with a dynamic header and preloader.
 
-```
-**demo** : https://dental-doctor-ujjal.netlify.app/
-**My Websit**e : https://ujjalzaman-b6c8a.web.app/
-```
 
 
 #### What Technology are Using In This Projects
